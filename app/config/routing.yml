@@ -1,3 +1,8 @@
+ymc_how_to_assetic:
+    resource: "@YmcHowToAsseticBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 # Internal routing configuration to handle ESI
 #_internal:
 #    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
