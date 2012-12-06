@@ -1,3 +1,7 @@
+ymc_how_to_acl:
+    resource: "@YmcHowToAclBundle/Resources/config/routing.yml"
+    prefix:   /
+
 ymc_how_to_common:
     resource: "@YmcHowToCommonBundle/Controller/"
     type:     annotation
