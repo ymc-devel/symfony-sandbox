@@ -10,10 +10,12 @@ Install the vendor bundles via composer
     curl -s https://getcomposer.org/installer | php
     php composer.phar install
 
-Install the Bundles in the directory ```src/Ymc/``` via Git Submodules:
+Install the YMC bundles via Git Submodules:
 
-    cd symfony-sandbox
     git submodule init
+    git submodule update
+    
+After this installation, they can be found in ```src/Ymc/*Bundle```
 
 ## Configuration
 
@@ -24,8 +26,6 @@ Copy and edit ```parameters.yml.dist```
     # put your database settings in
     php app/console doctrine:schema:update
 
-Now put your database settings into the ´´´parameters.yml´´´ file...
-
 Change file-permissions like the following
 
     chmod -R 777 app/cache
@@ -34,4 +34,3 @@ Change file-permissions like the following
 **your are done now **
 
 Open your browser and go to http://MY.LOCAL.HOST/symfony-standard/web/app_dev.php 
-
