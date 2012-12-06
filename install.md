@@ -21,8 +21,8 @@ After this installation, they can be found in ```src/Ymc/*Bundle```
 
 Copy and edit ```parameters.yml.dist```
 
-    cp parameters.yml.dist parameters.yml
-    vi parameters.yml
+    cp app/config/parameters.yml.dist app/config/parameters.yml
+    vi app/config/parameters.yml
     # put your database settings in
     php app/console doctrine:schema:update
 
