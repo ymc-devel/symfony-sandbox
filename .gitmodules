@@ -1,0 +1,6 @@
+[submodule "src/Ymc/HowToAsseticBundle"]
+	path = src/Ymc/HowToAsseticBundle
+	url = git@github.com:ymc-devel/YmcHowToAsseticBundle.git
+[submodule "src/Ymc/HowToAclBundle"]
+	path = src/Ymc/HowToAclBundle
+	url = git@github.com:ymc-devel/YmcHowToAclBundle.git
