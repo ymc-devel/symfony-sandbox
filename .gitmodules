@@ -4,3 +4,6 @@
 [submodule "src/Ymc/HowToAclBundle"]
 	path = src/Ymc/HowToAclBundle
 	url = git@github.com:ymc-devel/YmcHowToAclBundle.git
+[submodule "src/Ymc/HowToServiceContainerBundle"]
+	path = src/Ymc/HowToServiceContainerBundle
+	url = git@github.com:ymc-devel/YmcHowToServiceContainerBundle.git
